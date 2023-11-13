@@ -5,6 +5,19 @@ body {
     margin: 0;
 }
 
+.top-c {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh 0;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 line {
     stroke: #555 !important;
 }
@@ -41,12 +54,12 @@ path {
 }
 
 .container {
-    height: auto;
+    height: 570px;
     width: 1000px;
     align-items: center;
     justify-content: center;
     background: rgb(40,40,40);
-    margin: 10vh auto;
+    margin: auto;
     border-radius: 4px;
 }
 
@@ -54,9 +67,13 @@ path {
     max-height: 520px;
 }
 
-#legend {
-    background: lightgray;
-    padding: 20px;
-    font-size: .8rem;
-    fill: white;
+@media(max-width: 600px) {
+    h2 {
+
+        font-size: 20px;
+        left: 20px;
+        top: 30px;
+    }
+
 }
+    
