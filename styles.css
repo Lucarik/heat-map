@@ -1,0 +1,62 @@
+body {
+    background: rgb(30,30,30);
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+line {
+    stroke: #555 !important;
+}
+
+path {
+    stroke: #555 !important;
+}
+
+.text {
+    fill: white;
+}
+
+#tooltip {
+    z-index: 1;
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    left: 50px;
+    bottom: 100px;
+    /* padding: 10px 20px; */
+    background: rgba(150,150,150,.6);
+    border-radius: 4px;
+}
+.tooltip-text {
+    color: white;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 200px;
+    font-size: .7rem;
+    padding: 7px 15px;
+    background: rgba(150,150,150,.6);
+    border-radius: 4px;
+}
+
+.container {
+    height: auto;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+    background: rgb(40,40,40);
+    margin: 10vh auto;
+    border-radius: 4px;
+}
+
+.plot {
+    max-height: 520px;
+}
+
+#legend {
+    background: lightgray;
+    padding: 20px;
+    font-size: .8rem;
+    fill: white;
+}
